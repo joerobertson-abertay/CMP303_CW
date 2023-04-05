@@ -1,0 +1,67 @@
+﻿  Client.cpp
+  Animation.cpp
+  AudioManager.cpp
+  BaseLevel.cpp
+  Collision.cpp
+  GameState.cpp
+  Input.cpp
+  MusicObject.cpp
+  GameObject.cpp
+  SoundObject.cpp
+  TileMap.cpp
+  VectorHelper.cpp
+  Level.cpp
+D:\Users\Joe\Documents\GitHub\CMP105\CMP105_CW\Coursework\CMP105App\Level.cpp(129,13): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\Users\Joe\Documents\GitHub\CMP105\CMP105_CW\Coursework\CMP105App\Level.cpp(130,13): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Main.cpp
+  Enemy.cpp
+  EntityManager.cpp
+D:\Users\Joe\Documents\GitHub\CMP105\CMP105_CW\Coursework\CMP105App\EntityManager.cpp(483,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Tank.cpp
+  Bullet.cpp
+  MainMenu.cpp
+  loseScreen.cpp
+  Compiling...
+  HowToPlay.cpp
+  Server.cpp
+  WinScreen.cpp
+  TileManager.cpp
+Client.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::IpAddress __cdecl sf::IpAddress::getLocalAddress(void)" (__imp_?getLocalAddress@IpAddress@sf@@SA?AV12@XZ)
+Client.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::IpAddress::IpAddress(void)" (__imp_??0IpAddress@sf@@QEAA@XZ)
+Client.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __cdecl sf::TcpSocket::connect(class sf::IpAddress const &,unsigned short,class sf::Time)" (__imp_?connect@TcpSocket@sf@@QEAA?AW4Status@Socket@2@AEBVIpAddress@2@GVTime@2@@Z)
+Main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Socket::setBlocking(bool)" (__imp_?setBlocking@Socket@sf@@QEAAX_N@Z)
+Main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::TcpListener::TcpListener(void)" (__imp_??0TcpListener@sf@@QEAA@XZ)
+Main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::TcpSocket::TcpSocket(void)" (__imp_??0TcpSocket@sf@@QEAA@XZ)
+Main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::TcpListener::~TcpListener(void)" (__imp_??1TcpListener@sf@@UEAA@XZ)
+Main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::TcpSocket::~TcpSocket(void)" (__imp_??1TcpSocket@sf@@UEAA@XZ)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Packet & __cdecl sf::Packet::operator<<(bool)" (__imp_??6Packet@sf@@QEAAAEAV01@_N@Z)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Packet & __cdecl sf::Packet::operator<<(int)" (__imp_??6Packet@sf@@QEAAAEAV01@H@Z)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Packet & __cdecl sf::Packet::operator<<(unsigned int)" (__imp_??6Packet@sf@@QEAAAEAV01@I@Z)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Packet & __cdecl sf::Packet::operator<<(float)" (__imp_??6Packet@sf@@QEAAAEAV01@M@Z)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Packet & __cdecl sf::Packet::operator>>(bool &)" (__imp_??5Packet@sf@@QEAAAEAV01@AEA_N@Z)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Packet & __cdecl sf::Packet::operator>>(int &)" (__imp_??5Packet@sf@@QEAAAEAV01@AEAH@Z)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Packet & __cdecl sf::Packet::operator>>(unsigned int &)" (__imp_??5Packet@sf@@QEAAAEAV01@AEAI@Z)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Packet & __cdecl sf::Packet::operator>>(float &)" (__imp_??5Packet@sf@@QEAAAEAV01@AEAM@Z)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Packet::operator bool (__cdecl sf::Packet::*)(unsigned __int64)(void)const " (__imp_??BPacket@sf@@QEBAP801@EAA_N_K@ZXZ)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Packet::clear(void)" (__imp_?clear@Packet@sf@@QEAAXXZ)
+    Hint on symbols that are defined and could potentially match:
+      "__declspec(dllimport) public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Packet::~Packet(void)" (__imp_??1Packet@sf@@UEAA@XZ)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Packet::Packet(void)" (__imp_??0Packet@sf@@QEAA@XZ)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __cdecl sf::TcpSocket::receive(class sf::Packet &)" (__imp_?receive@TcpSocket@sf@@QEAA?AW4Status@Socket@2@AEAVPacket@2@@Z)
+EntityManager.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __cdecl sf::TcpSocket::send(class sf::Packet &)" (__imp_?send@TcpSocket@sf@@QEAA?AW4Status@Socket@2@AEAVPacket@2@@Z)
+Server.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __cdecl sf::TcpListener::accept(class sf::TcpSocket &)" (__imp_?accept@TcpListener@sf@@QEAA?AW4Status@Socket@2@AEAVTcpSocket@2@@Z)
+Server.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::TcpListener::close(void)" (__imp_?close@TcpListener@sf@@QEAAXXZ)
+    Hint on symbols that are defined and could potentially match:
+      "__declspec(dllimport) public: void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@QEAAXXZ)
+Server.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __cdecl sf::TcpListener::listen(unsigned short,class sf::IpAddress const &)" (__imp_?listen@TcpListener@sf@@QEAA?AW4Status@Socket@2@GAEBVIpAddress@2@@Z)
+Server.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::IpAddress const sf::IpAddress::Any" (__imp_?Any@IpAddress@sf@@2V12@B)
+D:\Users\Joe\Documents\GitHub\CMP105\CMP105_CW\Coursework\x64\Release\CMP105App.exe : fatal error LNK1120: 26 unresolved externals

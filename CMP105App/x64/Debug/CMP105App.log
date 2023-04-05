@@ -1,0 +1,17 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (CMP105App.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  EntityManager.cpp
+D:\Users\Joe\Documents\GitHub\CMP105\CMP105_CW\Coursework\CMP105App\EntityManager.cpp(179,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Level.cpp
+D:\Users\Joe\Documents\GitHub\CMP105\CMP105_CW\Coursework\CMP105App\Level.cpp(83,13): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\Users\Joe\Documents\GitHub\CMP105\CMP105_CW\Coursework\CMP105App\Level.cpp(84,13): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Main.cpp
+  Generating Code...
+  CMP105App.vcxproj -> D:\Users\Joe\Documents\GitHub\CMP105\CMP105_CW\Coursework\x64\Debug\CMP303.exe
